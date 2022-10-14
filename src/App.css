@@ -1,0 +1,84 @@
+/* html {
+  
+} */
+
+@font-face {
+  font-family: "Handwriting";
+  src: url(./Components/font/Handwriting.ttf);
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Handwriting", sans-serif;
+}
+
+p {
+  color: black;
+}
+
+.notepad {
+  background-image: url("./Images/paper2.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.header {
+  color: black;
+  padding-top: 90px;
+  margin-left: 250px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin-left: 250px;
+}
+
+.button {
+  width: 208px;
+  margin-left: 10px;
+  font-family: "Handwriting", sans-serif;
+  font-weight: bold;
+}
+
+.entries {
+  display: flex;
+  flex-direction: row;
+}
+
+.instructions {
+  color: black;
+  margin-left: 250px;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  color: black;
+  line-height: 0.75;
+  font-weight: bold;
+}
+
+.page {
+  height: 69vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
